@@ -1,0 +1,32 @@
+{
+  "profiles": {
+    "http": {
+      "commandName": "Project",
+      "launchBrowser": true,
+      "launchUrl": "swagger",
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Development",
+        "connection": "Server=LUCCASCARON\\\\SQLEXPRESS;Database=geek_shopping_product_api;Trusted_Connection=True;TrustServerCertificate=True;"
+      },
+      "dotnetRunMessages": true,
+      "applicationUrl": "http://localhost:5221"
+    },
+    "IIS Express": {
+      "commandName": "IISExpress",
+      "launchBrowser": true,
+      "launchUrl": "swagger",
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Development"
+      }
+    }
+  },
+  "$schema": "http://json.schemastore.org/launchsettings.json",
+  "iisSettings": {
+    "windowsAuthentication": false,
+    "anonymousAuthentication": true,
+    "iisExpress": {
+      "applicationUrl": "http://localhost:18611",
+      "sslPort": 0
+    }
+  }
+}
